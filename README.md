@@ -25,7 +25,8 @@ Die Attribute im Image-Tag selber zusammenstellen:
 
 
 
-I think you should use an
+> I think you 
+> should use an
 `<addr>` element here instead.
 
 
