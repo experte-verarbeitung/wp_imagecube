@@ -17,5 +17,17 @@ Unter Einstellungen/Medien wird die Bild- oder Würfelgrösse für die drei Form
 ## Einzelbilder
 Damit Einzelbilder in Lightshow gezeigt werden muss man im Link-Tag die Klasse class=„lightbox“ hinzufügen. Könnte man mit einem Filter machen. Dazu die Datei wp-includes/media.php anguken (vermutlich nach link_tag oder ähnlichem suchen, analog unten bei image_tag ⇓)
 
+## Image-Tag
+Wordpress Image-Tag überschreiben
+
+Die Attribute im Image-Tag selber zusammenstellen: 
+
+
+
+
+I think you should use an
+`<addr>` element here instead.
+
+
 # Source Styles
 Variant styles copied from Raja CRN http://themepacific.com Tiled Galleries Carousel Without Jetpack
