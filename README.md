@@ -22,9 +22,12 @@ Wordpress Image-Tag überschreiben
 
 Die Attribute im Image-Tag selber zusammenstellen: 
 
-#1
+#1 bsp
+
 mojombo#1
+
 mojombo/github-flavored-markdown#1
+
 
     javascript
     function fancyAlert(arg) {
