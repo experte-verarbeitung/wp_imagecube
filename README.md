@@ -25,27 +25,34 @@ Wordpress Image-Tag überschreiben
 
 Die Attribute im Image-Tag selber zusammenstellen: 
 
+<Datei js/ImageQubeBasic.html />
+````<img alt="neuerAlttext" height="10" width="10" src="http://source4image.com/image.jpg" border="0" /> ````
 
+<Datei imagecube.php />
+    
+    function image_tag($html, $id, $alt, $title) {
+	    $imgArr = wp_get_attachment_image_src( $id);
+	    if( strpos( ' '.$html , 'href' ) > 0 ) return $html; // this wont work
+	    if( strpos( ' '.$html , 'none' ) <1 ) return $html; 
 
-
-
-
-    javascript
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
+    	return preg_replace(
+            array(
+	    		'/\s+width="\d+"/i',
+		    	'/\s+height="\d+"/i',
+			    '/\s+class=".+"/i',
+			    '/alt=""/i'
+		    ),
+		    array(
+			    '',
+			    '',
+			    '',
+			    'alt="' . $title . '"'
+        ) , $html );
     }
-
-def foo():
-    if not bar:
-        return True
-        
-> I think you 
-> should use an
-
-`<addr>` element here instead.
-
+    
+    add_filter('get_image_tag', 'image_tag', 0, 4);
+    
+ 
 
 # Source Styles
 Variant styles copied from Raja CRN http://themepacific.com Tiled Galleries Carousel Without Jetpack
