@@ -23,7 +23,13 @@ Wordpress Image-Tag überschreiben
 Die Attribute im Image-Tag selber zusammenstellen: 
 
 
-
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
 
 > I think you 
 > should use an
