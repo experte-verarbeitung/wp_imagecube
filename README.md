@@ -25,11 +25,14 @@ Wordpress Image-Tag überschreiben
 
 Die Attribute im Image-Tag selber zusammenstellen: 
 
-<Datei js/ImageQubeBasic.html />
+<Datei js/ImageQubeBasic.html>
+
 ````<img alt="neuerAlttext" height="10" width="10" src="http://source4image.com/image.jpg" border="0" /> ````
 
-<Datei imagecube.php />
-    
+
+<Datei imagecube.php>
+
+
     function image_tag($html, $id, $alt, $title) {
 	    $imgArr = wp_get_attachment_image_src( $id);
 	    if( strpos( ' '.$html , 'href' ) > 0 ) return $html; // this wont work
