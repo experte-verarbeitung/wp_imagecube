@@ -15,18 +15,17 @@ Unter Einstellungen/Medien wird die Bild- oder Würfelgrösse für die drei Form
 
 # Erweitern und Stylen
 ## Einzelbilder
-Damit Einzelbilder in Lightshow gezeigt werden muss man im Link-Tag die Klasse class=„lightbox“ hinzufügen. Könnte man mit einem Filter machen. Dazu die Datei wp-includes/media.php anguken (vermutlich nach link_tag oder ähnlichem suchen, analog unten bei image_tag ⇓)
+Damit Einzelbilder in Lightshow gezeigt werden muss man im Link-Tag die Klasse class=„lightbox“ hinzufügen. Könnte man mit einem Filter machen. Dazu die Datei wp-includes/media.php anguken (vermutlich nach link_tag oder ähnlichem suchen, analog unten bei [Image Tag ⇓)](https://github.com/experte-verarbeitung/wp_imagecube/blob/master/README.md#image-tag
+) 
 
 ## Image-Tag
 Wordpress Image-Tag überschreiben
 
 Die Attribute im Image-Tag selber zusammenstellen: 
 
-#1 bsp
 
-mojombo#1
 
-mojombo/github-flavored-markdown#1
+
 
 
     javascript
