@@ -23,16 +23,20 @@ Wordpress Image-Tag überschreiben
 Die Attribute im Image-Tag selber zusammenstellen: 
 
 
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
+    javascript
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
 
+def foo():
+    if not bar:
+        return True
+        
 > I think you 
 > should use an
+
 `<addr>` element here instead.
 
 
