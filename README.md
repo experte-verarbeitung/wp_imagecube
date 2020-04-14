@@ -2,7 +2,7 @@
 Displays images on a rotating cube and adds variant styles to the standard gallery.
 
 # Abhängigkeit
-Affored Plugin: FancyBox for WordPress. 
+Plugin FancyBox for WordPress. 
 https://wordpress.org/plugins/fancybox-for-wordpress/
 
 # Installation
