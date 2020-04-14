@@ -1,7 +1,7 @@
 # wp_imagecube
 Displays images on a rotating cube and adds variant styles to the standard gallery.
 
-# Required
+# Abhängigkeit
 Affored Plugin: FancyBox for WordPress. 
 https://wordpress.org/plugins/fancybox-for-wordpress/
 
