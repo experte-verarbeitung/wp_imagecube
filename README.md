@@ -1,5 +1,5 @@
 # wp_imagecube
-Zeigt Bilder auf einem rotierenden Würfel.
+Zeigt Bilder auf einem rotierenden Würfel. Läuft nicht mehr einwandfre! Nur einfaches Kippen möglich, keine Feder-Effekte!
 
 # Abhängigkeit
 Plugin FancyBox for WordPress. 
